@@ -1,0 +1,196 @@
+/*
+
+Template: Appino - Responsive App Landing Page
+Author: iqonicthemes.in
+Version: 1.0
+Design and Developed by: iqonicthemes.in
+
+NOTE: You can use your styling layout by this file to your website.
+
+*/
+
+.pricing-tabs>li>a>img
+{
+	max-width: 80% !important;
+}
+
+.pricing-tabs>li{
+	width:12% !important;
+}
+
+.mol-price
+{
+	 font-size: 3rem;
+	 color: #00338d;
+}
+
+.mol-year
+{
+	 font-size: 2.05rem;
+	 color: #00338d;
+}
+.normal-value-tag{
+ /* background: no-repeat #f2eded;*/
+  background-size: 90px;
+}
+.best-value-tag{
+  background: url('../images/membership/best-value-tag.png') top right no-repeat #f2eded;
+  background-size: 90px;
+}
+
+
+.comparison-table {
+  width: 100%;
+  color: #333;
+  font-size: 16px;
+  border-spacing: 0;
+  border-collapse: collapse;
+  line-height: 20px;
+}
+
+.comparison-table h2,
+.comparison-table h3 {
+  margin: 0 0 -4px !important;
+}
+
+.comparison-table h3 {
+  text-align: center !important;
+}
+
+.comparison-table .atom-btn-sml {
+  float: none !important;
+  margin-right: 0 !important;
+}
+
+.comparison-table thead th {
+  vertical-align: top;
+  text-align: center;
+}
+
+.comparison-table thead th h2 {
+  color: #00338d;
+}
+
+.comparison-table thead span.mol-price{
+  font-size: 24px;
+  line-height: 50px;
+}
+
+.comparison-table thead span.mol-price::before {
+  content: "$";
+  font-size: 14px;
+  line-height: 40px;
+  vertical-align: top;
+}
+
+
+
+.comparison-table .best-value-ribbon {
+  background: url("../images/membership/best-value-tag.png") top right no-repeat transparent;
+  background-size: 75px;
+}
+
+.comparison-table .rv-option {
+  margin: 12px 0 0 !important;
+  text-align: center !important;
+}
+
+.comparison-table tbody th {
+  padding: 12px 20px;
+  text-align: left;
+}
+
+.comparison-table tr th {
+  border-bottom: 1px solid #e6e6e6;
+  padding: 12px;
+}
+
+.comparison-table tr td {
+  width: 23%;
+  text-align: center;
+  border-bottom: 1px solid #e6e6e6;
+  padding: 12px;
+}
+
+.comparison-table tr th:nth-child(1) {
+  border-right: 1px solid #e6e6e6;
+  font-weight: 400;
+  text-align: left !important;
+}
+
+.comparison-table tr th:nth-child(3),
+.comparison-table tr td:nth-child(3) {
+  background-color: #f3eded;
+}
+
+.comparison-table .icon-check-regular {
+  color: #65b32b;
+  font-size: 20px;
+}
+
+.comparison-table sup {
+  font-size: 10px;
+  top: -0.6em;
+}
+
+.comparison-table tfoot {
+  display: none;
+}
+
+.comparison-table tfoot td {
+  width: 100%;
+  font-weight: 700;
+  font-size: 14px;
+  border-bottom: none;
+}
+
+.comparison-table tfoot td a {
+  text-decoration: none;
+}
+
+.comparison-table tfoot .plan-arrow-prev {
+  float: left;
+}
+
+.comparison-table tfoot .plan-arrow-next::after {
+  font-family: 'caasco-icons';
+  content: "\e809";
+  line-height: 6px;
+  margin-left: 5px;
+}
+
+.comparison-table tfoot .plan-arrow-next {
+  float: right;
+}
+
+.comparison-table tfoot .plan-arrow-prev::before {
+  font-family: 'caasco-icons';
+  content: "\e904";
+  line-height: 6px;
+  margin-right: 5px;
+}
+
+.comparison-table tfoot .plan-arrow-next::after,
+.comparison-table tfoot .plan-arrow-prev::before {
+  display: inline-block;
+  vertical-align: middle;
+  width: 1em;
+  height: 0.7em;
+}
+
+
+/* Important part */
+.modal-dialog{
+    overflow-y: initial !important
+}
+.modal-body{
+    height: 550px;
+    overflow-y: auto;
+}
+
+
+.overview-block-ptb
+{
+	
+	    padding: 50px 0 !important;
+}
