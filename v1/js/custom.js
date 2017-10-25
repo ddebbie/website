@@ -381,7 +381,7 @@ $(document).ready(function() {
 		 $('.slider-for').slick({
 			   slidesToShow: 1,
 			   slidesToScroll: 1,
-			   arrows: false,
+			   arrows: true,
 			   fade: true,
 			   asNavFor: '.slider-nav'
 			 });
@@ -390,6 +390,8 @@ $(document).ready(function() {
 			   slidesToScroll: 1,
 			   asNavFor: '.slider-for',
 			   dots: false,
+			   arrows: true,
+			   variableWidth: true,
 			   focusOnSelect: true
 			 });
 });
