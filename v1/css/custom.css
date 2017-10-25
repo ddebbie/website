@@ -299,7 +299,7 @@ NOTE: You can use your styling layout by this file to your website.
       display: block;
       font-weight: 400;
       color: rgba(0, 0, 0, 0.92);
-      font-size: 18px;
+      font-size: 13px;
       margin-bottom: 40px; }
     .ola-fleet .indiv-fleet:hover .img-holder {
       background: #CDDC39; }
@@ -342,7 +342,7 @@ NOTE: You can use your styling layout by this file to your website.
   .ola-fleet .aw-fleet-active .triangle-up {
     opacity: 1;
     display: block; }
-  .ola-fleet .slick1-prev1 {
+  .ola-fleet .prev-btn-nav {
     position: absolute;
     left: -50px;
     font-size: 0;
@@ -380,7 +380,7 @@ NOTE: You can use your styling layout by this file to your website.
     -ms-transform: translateY(-50%);
     -o-transform: translateY(-50%);
     transform: translateY(-50%);
-    background: url("../img/arrowhead-right.png");
+    background: url("../images/fleet/arrowhead-right.png");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center; }
@@ -403,3 +403,24 @@ NOTE: You can use your styling layout by this file to your website.
     opacity: 1;
     display: block;
     position: static; }
+
+    
+    
+    .ola-fleet .ola-fleet-options {
+    padding: 25px 0 0 0;
+    display: block;
+    width: 100%;
+    white-space: nowrap;
+    position: relative;
+    z-index: 2;
+}
+
+.ola-fleet {
+    padding: 60px 20px 0 0;
+    width: 100%;
+}
+
+.max-width {
+    max-width: 1200px;
+    margin: auto;
+}

@@ -377,22 +377,76 @@ $(document).ready(function() {
 		 $(".nav-tabs a").click(function(){
 		$(this).tab('show');
     });
-		 
-		 $('.slider-for').slick({
-			   slidesToShow: 1,
-			   slidesToScroll: 1,
-			   arrows: true,
-			   fade: true,
-			   asNavFor: '.slider-nav'
-			 });
+		 var prev_nav = $('.prev-btn-nav');
+			var next_nav = $('.next-btn-nav');
+			
+			$('.slider-for').slick({
+		      	slidesToShow: 1,
+				slidesToScroll: 1,
+				arrows: true,
+				fade: true,
+				infinite: false,
+				asNavFor: '.slider-nav'
+		   });
 			 $('.slider-nav').slick({
-			   slidesToShow: 6,
-			   slidesToScroll: 1,
-			   asNavFor: '.slider-for',
-			   dots: false,
-			   arrows: true,
-			   variableWidth: true,
-			   focusOnSelect: true
+				 	slidesToShow: 10,
+			  		slidesToScroll: 1,
+			  		asNavFor: '.slider-for',
+			  		focusOnSelect: true,
+			  		infinite: false,
+			  		arrows: true,
+					responsive: [
+					 			{
+					 				breakpoint: 1400,
+					 				settings: {
+					 			        slidesToShow: 8,
+					 			        slidesToScroll: 1,
+					 			    }
+					 			},
+					 			{
+					 				breakpoint: 1024,
+					 				settings: {
+					 			        slidesToShow: 7,
+					 			        slidesToScroll: 1,
+					 			    }
+					 			},
+					 			{
+					 				breakpoint: 800,
+					 				settings: {
+					 			        slidesToShow: 6,
+					 			        slidesToScroll: 1,
+					 			    }
+					 			},
+					 			{
+					 				breakpoint: 768,
+					 				settings: {
+					 			        slidesToShow: 5,
+					 			        swipe: false,
+					 			    }
+					 			},
+					 			{
+					 				breakpoint: 600,
+					 				settings: {
+					 			        slidesToShow: 4,
+					 			        swipe: false,
+					 			    }
+					 			},
+					 			{
+					 				breakpoint: 480,
+					 				settings: {
+					 			        slidesToShow: 3,
+					 			        swipe: false,
+					 			    }
+					 			},
+					 			{
+					 				breakpoint: 350,
+					 				settings: {
+					 			        slidesToShow: 2,
+					 			        swipe: false,
+					 			    }
+					 			},
+
+					 		]
 			 });
 });
 
