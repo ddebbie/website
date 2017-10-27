@@ -389,12 +389,16 @@ $(document).ready(function() {
 				asNavFor: '.slider-nav'
 		   });
 			 $('.slider-nav').slick({
-				 	slidesToShow: 10,
+				 	slidesToShow: 8,
 			  		slidesToScroll: 1,
 			  		asNavFor: '.slider-for',
 			  		focusOnSelect: true,
 			  		infinite: false,
 			  		arrows: true,
+			  		prevArrow: prev_nav,
+					nextArrow: next_nav,
+					autoplay: true,
+					autoplaySpeed: 2000,
 					responsive: [
 					 			{
 					 				breakpoint: 1400,
