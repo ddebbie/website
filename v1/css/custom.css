@@ -232,21 +232,21 @@ NOTE: You can use your styling layout by this file to your website.
 
 
 
-.ola-fleet {
+.ddebbie-fleet {
   padding: 60px 20px 0 0;
   width: 100%; }
-  .ola-fleet .ola-fleet-options {
+  .ddebbie-fleet .ddebbie-fleet-options {
     padding: 25px 0 0 0;
     display: block;
     width: 100%;
     white-space: nowrap;
     position: relative;
     z-index: 2; }
-  .ola-fleet .outstation-fleet .slick-list .slick-track {
+  .ddebbie-fleet .outstation-fleet .slick-list .slick-track {
     margin: initial; }
-  .ola-fleet .rental-fleet .slick-list .slick-track {
+  .ddebbie-fleet .rental-fleet .slick-list .slick-track {
     margin: initial; }
-  .ola-fleet .indiv-fleet {
+  .ddebbie-fleet .indiv-fleet {
     text-align: center;
     margin-right: 25px;
     display: inline-block;
@@ -259,7 +259,7 @@ NOTE: You can use your styling layout by this file to your website.
     transition: all 0.2s ease;
     position: relative;
     cursor: pointer; }
-    .ola-fleet .indiv-fleet .img-holder {
+    .ddebbie-fleet .indiv-fleet .img-holder {
       width: 80px;
       height: 80px;
       border-radius: 50%;
@@ -273,7 +273,7 @@ NOTE: You can use your styling layout by this file to your website.
       -o-transition: all 0.15s ease;
       -ms-transition: all 0.15s ease;
       transition: all 0.15s ease; }
-    .ola-fleet .indiv-fleet img {
+    .ddebbie-fleet .indiv-fleet img {
       width: 55px;
       -webkit-transition: all 0.2s ease;
       -moz-transition: all 0.2s ease;
@@ -286,35 +286,35 @@ NOTE: You can use your styling layout by this file to your website.
       bottom: 0;
       right: 0;
       margin: auto; }
-    .ola-fleet .indiv-fleet .ola-fleet-icon {
+    .ddebbie-fleet .indiv-fleet .ddebbie-fleet-icon {
       opacity: 1; }
-    .ola-fleet .indiv-fleet .ola-fleet-icon-active {
+    .ddebbie-fleet .indiv-fleet .ddebbie-fleet-icon-active {
       opacity: 0;
       -webkit-animation: slide-front 5s forwards;
       -moz-animation: slide-front 5s forwards;
       -o-animation: slide-front 5s forwards;
       -ms-animation: slide-front 5s forwards;
       animation: slide-front 5s forwards; }
-    .ola-fleet .indiv-fleet label {
+    .ddebbie-fleet .indiv-fleet label {
       display: block;
       font-weight: 400;
       color: rgba(0, 0, 0, 0.92);
       font-size: 13px;
       margin-bottom: 40px; }
-    .ola-fleet .indiv-fleet:hover .img-holder {
+    .ddebbie-fleet .indiv-fleet:hover .img-holder {
       background: #CDDC39; }
-    .ola-fleet .indiv-fleet:hover .ola-fleet-icon {
+    .ddebbie-fleet .indiv-fleet:hover .ddebbie-fleet-icon {
       opacity: 0; }
-    .ola-fleet .indiv-fleet:hover .ola-fleet-icon-active {
+    .ddebbie-fleet .indiv-fleet:hover .ddebbie-fleet-icon-active {
       opacity: 1;
       -webkit-animation: slide-back 650ms forwards;
       -moz-animation: slide-back 650ms forwards;
       -o-animation: slide-back 650ms forwards;
       -ms-animation: slide-back 650ms forwards;
       animation: slide-back 650ms forwards; }
-    .ola-fleet .indiv-fleet:focus {
+    .ddebbie-fleet .indiv-fleet:focus {
       outline: none; }
-    .ola-fleet .indiv-fleet .triangle-up {
+    .ddebbie-fleet .indiv-fleet .triangle-up {
       position: absolute;
       bottom: -21px;
       top: initial;
@@ -324,25 +324,25 @@ NOTE: You can use your styling layout by this file to your website.
       z-index: 5;
       opacity: 0;
       display: none; }
-      .ola-fleet .indiv-fleet .triangle-up img {
+      .ddebbie-fleet .indiv-fleet .triangle-up img {
         width: 30px;
         display: block;
         position: static; }
-  .ola-fleet .aw-fleet-active .img-holder {
+  .ddebbie-fleet .aw-fleet-active .img-holder {
     background: #CDDC39; }
-  .ola-fleet .aw-fleet-active .ola-fleet-icon {
+  .ddebbie-fleet .aw-fleet-active .ddebbie-fleet-icon {
     opacity: 0; }
-  .ola-fleet .aw-fleet-active .ola-fleet-icon-active {
+  .ddebbie-fleet .aw-fleet-active .ddebbie-fleet-icon-active {
     opacity: 1;
     -webkit-animation: slide-back 650ms forwards;
     -ms-animation: slide-back 650ms forwards;
     -o-animation: slide-back 650ms forwards;
     -moz-animation: slide-back 650ms forwards;
     animation: slide-back 650ms forwards; }
-  .ola-fleet .aw-fleet-active .triangle-up {
+  .ddebbie-fleet .aw-fleet-active .triangle-up {
     opacity: 1;
     display: block; }
-  .ola-fleet .prev-btn-nav {
+  .ddebbie-fleet .prev-btn-nav {
     position: absolute;
     left: -50px;
     font-size: 0;
@@ -361,11 +361,11 @@ NOTE: You can use your styling layout by this file to your website.
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center; }
-    .ola-fleet .prev-btn-nav:hover {
+    .ddebbie-fleet .prev-btn-nav:hover {
       opacity: 0.5; }
-    .ola-fleet .prev-btn-nav:focus {
+    .ddebbie-fleet .prev-btn-nav:focus {
       outline: none; }
-  .ola-fleet .next-btn-nav {
+  .ddebbie-fleet .next-btn-nav {
     position: absolute;
     right: -50px;
     font-size: 0;
@@ -384,29 +384,29 @@ NOTE: You can use your styling layout by this file to your website.
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center; }
-    .ola-fleet .next-btn-nav:hover {
+    .ddebbie-fleet .next-btn-nav:hover {
       opacity: 0.5; }
-    .ola-fleet .next-btn-nav:focus {
+    .ddebbie-fleet .next-btn-nav:focus {
       outline: none; }
-  .ola-fleet .slick-current .img-holder {
+  .ddebbie-fleet .slick-current .img-holder {
     background: #CDDC39 !important; }
-  .ola-fleet .slick-current .ola-fleet-icon {
+  .ddebbie-fleet .slick-current .ddebbie-fleet-icon {
     opacity: 0; }
-  .ola-fleet .slick-current .ola-fleet-icon-active {
+  .ddebbie-fleet .slick-current .ddebbie-fleet-icon-active {
     opacity: 1;
     -webkit-animation: slide-back 650ms forwards;
     -ms-animation: slide-back 650ms forwards;
     -o-animation: slide-back 650ms forwards;
     -moz-animation: slide-back 650ms forwards;
     animation: slide-back 650ms forwards; }
-  .ola-fleet .slick-current .triangle-up {
+  .ddebbie-fleet .slick-current .triangle-up {
     opacity: 1;
     display: block;
     position: static; }
 
     
     
-    .ola-fleet .ola-fleet-options {
+    .ddebbie-fleet .ddebbie-fleet-options {
     padding: 25px 0 0 0;
     display: block;
     width: 100%;
@@ -415,7 +415,7 @@ NOTE: You can use your styling layout by this file to your website.
     z-index: 2;
 }
 
-.ola-fleet {
+.ddebbie-fleet {
     padding: 60px 20px 0 0;
     width: 100%;
 }
